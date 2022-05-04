@@ -28,6 +28,11 @@
   .prof-pic { 
       grid-area: prof-pic; 
     }
+
+#profilepic {
+    width: 100%;
+    height: auto;
+}
   
   .prof-info { 
       grid-area: prof-info; 
