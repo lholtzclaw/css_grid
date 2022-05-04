@@ -36,8 +36,18 @@
   
   .prof-info { 
       grid-area: prof-info; 
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding: 0 5vw;
     }
   
+    .prof-info > h1 {
+        align-self: center;
+    }
+
+
     .navbar > a {
         color: white;
         text-decoration: none;
