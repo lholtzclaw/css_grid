@@ -52,3 +52,29 @@
         color: white;
         text-decoration: none;
     }
+
+    .post-card {
+        border: solid black 1px;
+        padding: 1vh;
+        margin: 1vh 0;
+
+    }
+
+    .card-title {
+        margin: 10px 0;
+    }
+
+    .card-links {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .card-links > a {
+        text-decoration: none;
+    
+    }
+
+    .card-links > a:hover {
+        text-decoration: underline;
+    }
